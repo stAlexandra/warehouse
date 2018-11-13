@@ -1,5 +1,3 @@
-import com.me.DataSource;
-import org.junit.After;
 import org.junit.Test;
 
 import java.sql.*;

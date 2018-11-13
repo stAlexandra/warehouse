@@ -4,6 +4,11 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class Item {
+    public static final String TABLE_NAME = "items";
+    public static final String ID_COLUMN = "id";
+    public static final String NAME_COLUMN = "name";
+    public static final String WAREHOUSE_ID_COLUMN = "warehouse_id";
+
     private Long id;
     private String name;
     private Long warehouse_id;
